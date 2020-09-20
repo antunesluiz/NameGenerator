@@ -5,7 +5,7 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(WordGenerator());
 
 class RandomWords extends StatefulWidget {
   @override
@@ -96,8 +96,7 @@ class _RandomWordsState extends State<RandomWords> {
   }
 }
 
-
-class MyApp extends StatelessWidget {
+class WordGenerator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

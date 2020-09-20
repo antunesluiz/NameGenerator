@@ -1,4 +1,4 @@
-# myapp
+# wordgenerator
 
 A new Flutter project.
 
